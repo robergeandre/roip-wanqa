@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/robergeandre/roip-wanqa">
-    <img src="images/RoIPLogo.jpeg" alt="Logo" width="180" height="180">
+    <img src="images/RoIPLogo1.jpeg" alt="Logo" width="180" height="180">
   </a>
 
 <h3 align="center">Cauca RoIP WanQA</h3>
@@ -57,9 +57,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Configuration du Fabric Pica8 avec Ansible.  
-Dans le cas présent: Spine / Leaf / Exit Pods.
-
+Program d'analyse de la qualité du lien Wan. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -113,33 +111,14 @@ source ~/.bashrc
 <!-- USAGE EXAMPLES -->
 ## Utilisation
 
-Les playbooks sont séparés par fonction. 
-Dans le cas présent: Spine / Leaf / Exit Pods.
+Le code est integre dans le code du projet 'roip-wanqa'.
 
 ```sh
-ansible-playbook -i inventory/netbox_inv.yml playbooks/deploy_spine.yml --ask-vault-pass -vvv
-```
-
-```sh
-ansible-playbook -i inventory/netbox_inv.yml playbooks/deploy_leaf.yml --ask-vault-pass -vvv
-```
-
-```sh
-ansible-playbook -i inventory/netbox_inv.yml playbooks/deploy_exitpods.yml --ask-vault-pass -vvv
+ansible-playbook ./playbooks/build-images.yml -K --ask-vault-pass -vvvv
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- ROLEMAP -->
-## Role Maps
-Les roles suivant sont definie dans Ansible pour permettre le déploiement d'un BPI-R4 a l'aide de Netbox et permettre l'automation des configuration OpenVPN et pare-feu.
-
-- [ ] Generation de l'iamge de base OpenWRT
-    - [ ] Creation de l'image avec les options souhaitees dans ansible 
-        - [ ] Configure SNMP **A Faire -->
-
-   
 
 See the [open issues](https://github.com/github_username/ansible-fabric/issues) for a full list of proposed features (and known issues).
 
@@ -200,7 +179,6 @@ Project Link: [https://github.com/github_username/ansible-fabric](https://github
 [![TOML](https://img.shields.io/badge/TOML-9C4121?logo=toml&logoColor=fff)](#)
 [![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)](#)
 [![Debian](https://img.shields.io/badge/Debian-D60000?logo=debian&logoColor=fff)](#)
-[![Pica8](https://img.shields.io/badge/Pica8-407BEE?logo=pica8&logoColor=fff)](#)
 [![Ansible](https://img.shields.io/badge/Ansible-FF8F00?logo=ansible&logoColor=fff)](#)
 [![NetBox](https://img.shields.io/badge/NetBox-009688?logo=netbox&logoColor=fff)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
