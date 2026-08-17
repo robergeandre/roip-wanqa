@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/robergeandre/roip-wanqa">
-    <img src="images/RoIPLogo.jpeg" alt="Logo" width="180" height="180">
+    <img src="images/RoIPLogo1.jpeg" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Cauca RoIP WanQA</h3>
