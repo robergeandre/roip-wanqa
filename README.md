@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/robergeandre/roip-wanqa">
-    <img src="images/RoIPLogo1.jpeg" alt="Logo" width="180" height="180">
+    <img src="images/RoIPLogo.jpeg" alt="Logo" width="180" height="180">
   </a>
 
 <h3 align="center">Cauca RoIP WanQA</h3>
@@ -180,5 +180,4 @@ Project Link: [https://github.com/github_username/ansible-fabric](https://github
 [![YAML](https://img.shields.io/badge/YAML-CB171E?logo=yaml&logoColor=fff)](#)
 [![Debian](https://img.shields.io/badge/Debian-D60000?logo=debian&logoColor=fff)](#)
 [![Ansible](https://img.shields.io/badge/Ansible-FF8F00?logo=ansible&logoColor=fff)](#)
-[![NetBox](https://img.shields.io/badge/NetBox-009688?logo=netbox&logoColor=fff)](#)
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)](#)
